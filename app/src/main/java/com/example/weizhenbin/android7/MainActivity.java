@@ -165,11 +165,7 @@ public class MainActivity extends AppCompatActivity {
         Log.d("MainActivity", "onRestart");
     }
 
-    @Override
-    protected void onResume() {
-        super.onResume();
-        Log.d("MainActivity", "onResume");
-    }
+
 
     @Override
     protected void onStart() {
